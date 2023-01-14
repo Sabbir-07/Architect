@@ -8,10 +8,11 @@ body {
     font-family: 'Poppins', sans-serif;
 
 }
+
 header {
     background: rgba(255, 144, 14, 0.1);
     padding-top: 30px;
-    
+
 }
 
 .container {
@@ -29,7 +30,19 @@ header {
     font-size: 20px;
     color: #FFFFFF;
     border: none;
-    margin: 32px 0;
+    margin: 30px 0;
+}
+
+.btn-secondary{
+    background: #FF900E;
+    border-radius: 8px;
+    width: 300px;
+    height: 180px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    border: none;
+    margin: 30px 0;
 }
 
 /********************** Header and Nav styles************* */
@@ -53,7 +66,7 @@ nav>ul {
 }
 
 .sub-title {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 45px;
 }
 
@@ -61,13 +74,15 @@ nav>ul {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+    line-height: 26px;
 }
 
 .banner-details {
-    width: 100%;
-    max-width: 862px;
+    padding: 20px 50px;
     text-align: center;
 }
+
+
 
 /**************** Galary styles *************/
 .galary-item {
@@ -88,6 +103,56 @@ nav>ul {
     grid-row-gap: 24px;
     grid-column-gap: 24px;
 }
+
+/******************* Future styles ***************/
+.future-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: relative; */
+
+}
+
+.future-box-1 {
+    width: 100%;
+    max-width: 586px;
+
+}
+
+
+.future-item {
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid red;
+
+}
+
+.future-title-border {
+    border-left: 5px solid #FF900E;
+    margin-right: 20px;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 20px;
+}
+
+.future-sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.future-button {
+    text-align: center;
+    position: relative;
+    top: -160px;
+    right: -80px;
+
+}
+
 
 
 
@@ -110,9 +175,13 @@ nav>ul {
 /* footer */
 .footer-item {
     background: rgba(255, 144, 14, 0.1);
-    width: 1440px;
-    height: 100px;
     text-align: center;
-    
-
+    padding: 20px;
 }
+
+.fotter-details {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
