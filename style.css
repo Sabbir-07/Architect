@@ -1,3 +1,118 @@
-h1{
-    background-color: red;
+/*********************** Commom styles *******************/
+body {
+    max-width: 1920px;
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+header {
+    background: rgba(255, 144, 14, 0.1);
+    padding-top: 30px;
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    margin: 32px 0;
+}
+
+/********************** Header and Nav styles************* */
+.nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.sub-title {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.banner-details {
+    width: 100%;
+    max-width: 862px;
+    text-align: center;
+}
+
+/**************** Galary styles *************/
+.galary-item {
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    gap: 50px;
+
+}
+
+.galary-details {
+    width: 50%;
+}
+
+.galary-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer-item {
+    background: rgba(255, 144, 14, 0.1);
+    width: 1440px;
+    height: 100px;
+    text-align: center;
+    
+
 }
