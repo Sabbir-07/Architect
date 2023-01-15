@@ -178,6 +178,12 @@ header {
     font-size: 25px;
     color: #FFFFFF;
 }
+.elipisis{
+    height: 100px;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 /******************************************some fact styles  ********************************/
 .fact-items {
