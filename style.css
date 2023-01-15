@@ -344,10 +344,18 @@ header {
         font-size:2rem;
     }
     .nav{
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        
+    }
+    .nav ul{
+        flex-direction: column;
+
     }
     .new-section, .bonus-item{
         flex-direction: column;
+        
     }
 
 
