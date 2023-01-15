@@ -53,7 +53,7 @@ header {
     justify-content: space-between;
 }
 
-nav>ul {
+.nav ul {
     display: flex;
     list-style: none;
     gap: 30px;
@@ -287,7 +287,7 @@ nav>ul {
 
     .fact-items,
     .galary-item,
-    .future-box {
+    .future-box{
         flex-direction: column;
     }
 
@@ -309,6 +309,7 @@ nav>ul {
 
     .galary-details {
         width: 100%;
+        font-size: 2rem;
     }
 
     .galary-title {
@@ -320,13 +321,15 @@ nav>ul {
     }
 
     .title {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .nav-title{
-        font-size: 1.25rem;
+        font-size:2rem;
     }
-
+    .nav{
+        flex-wrap: wrap;
+    }
 
 
 }
