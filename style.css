@@ -157,19 +157,32 @@ nav>ul {
 
 }
 
+.button-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.button-sub-title {
+    font-weight: 500;
+font-size: 25px;
+    color: #FFFFFF;
+}
+
 /*****************some fact styles  ********************/
-.fact-items{
-    display:flex;
+.fact-items {
+    display: flex;
     justify-content: space-around;
     margin-top: 60px;
     margin-bottom: 80px;
 }
-.fact-details{
+
+.fact-details {
     width: 100%;
     max-width: 542px;
 }
-.fact-item{
-    text-align: center;  
+
+.fact-item {
+    text-align: center;
     border: 2px;
     border: 1px solid #FF900E;
     border-radius: 8px;
@@ -193,13 +206,14 @@ nav>ul {
 /* sponsor styles */
 
 
-.sponsor-details{
+.sponsor-details {
     text-align: center;
 }
-.fact-icon{
+
+.fact-icon {
     display: flex;
     justify-content: space-between;
-    margin-top:65px ;
+    margin-top: 65px;
 }
 
 
