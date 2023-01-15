@@ -71,6 +71,9 @@ header {
     color: #131313;
 
 }
+.banner-title{
+    width:70%;
+}
 
 .sub-title {
     font-weight: 700;
