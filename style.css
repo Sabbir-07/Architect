@@ -59,20 +59,27 @@ nav>ul {
     gap: 30px;
 }
 
+.nav-title {
+    font-weight: 700;
+    font-size: 2.81rem;
+    color: #131313;
+}
+
 .title {
     font-weight: 700;
-    font-size: 64px;
+    font-size: 4rem;
     color: #131313;
+
 }
 
 .sub-title {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 2.81rem;
 }
 
 .description {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     color: #727272;
     line-height: 26px;
 }
@@ -86,7 +93,7 @@ nav>ul {
 
 
 
-/**************** Galary styles *************/
+/****************************** Galary styles *****************************/
 .galary-item {
     display: flex;
     align-items: center;
@@ -102,11 +109,15 @@ nav>ul {
 .galary-image {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 24px;
-    grid-column-gap: 24px;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 1.5rem;
 }
 
-/******************* Future styles ***************/
+.galary-title {
+    width: 70%;
+}
+
+/********************************** Fuature styles ****************************/
 .future-box {
     display: flex;
     align-items: center;
@@ -138,14 +149,14 @@ nav>ul {
 
 .future-title {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 2.81rem;
     color: #131313;
     margin-left: 20px;
 }
 
 .future-sub-title {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #131313;
 }
 
@@ -159,16 +170,17 @@ nav>ul {
 
 .button-title {
     font-weight: 700;
-    font-size: 65px;
-    color: #FFFFFF;
-}
-.button-sub-title {
-    font-weight: 500;
-font-size: 25px;
+    font-size: 4rem;
     color: #FFFFFF;
 }
 
-/*****************some fact styles  ********************/
+.button-sub-title {
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+/******************************************some fact styles  ********************************/
 .fact-items {
     display: flex;
     justify-content: space-around;
@@ -187,30 +199,39 @@ font-size: 25px;
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 25px 70px;
-    
+    transition: width 2s linear 1s, height 2s ease 1s, transform 1s;
+
 }
-.fact-item:hover{
-    /* transform: scale(0.95) rotate(-45deg); */
-    border:2px solid skyblue;
-     
+
+.fact-item:hover {
+    transform: scale(1.1);
+    border: 2px solid skyblue;
+
+
 }
+
+.fact-item img:hover {
+    border: 3px solid skyblue;
+}
+
+
 
 
 
 .fact-title {
     font-weight: 600;
-    font-size: 45px;
+    font-size: 2.81rem;
     color: #424242;
 }
 
 .fact-description {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #727272;
 }
 
 /* sponsor styles */
-.sponsor-img{
+.sponsor-img {
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
@@ -224,7 +245,7 @@ font-size: 25px;
 .fact-icon {
     display: flex;
     justify-content: space-between;
-    margin-top: 65px;
+    margin-top: 4rem;
 
 }
 
@@ -232,19 +253,7 @@ font-size: 25px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer */
+/********* footer *********/
 .footer-item {
     background: rgba(255, 144, 14, 0.1);
     text-align: center;
@@ -255,6 +264,69 @@ font-size: 25px;
 
 .fotter-details {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #424242;
+}
+
+
+
+
+/**********************Responsive website Media Query  ******************/
+
+@media screen and (max-width:576px) {
+    body {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .sponsor-img {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .fact-items,
+    .galary-item,
+    .future-box {
+        flex-direction: column;
+    }
+
+    .galary-image {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .future-button {
+        position: static;
+    }
+
+    .container img {
+        width: 100%;
+    }
+
+    .fact-item {
+        margin: 20px;
+    }
+
+    .galary-details {
+        width: 100%;
+    }
+
+    .galary-title {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .nav-title{
+        font-size: 1.25rem;
+    }
+
+
+
 }
