@@ -358,7 +358,9 @@ header {
         flex-direction: column;
         
     }
-    
+    .future-box-2 img{
+        width: 100%;
+    }
 
 
 }
