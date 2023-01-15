@@ -204,7 +204,12 @@ font-size: 25px;
 }
 
 /* sponsor styles */
-
+.sponsor-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    filter: grayscale();
+}
 
 .sponsor-details {
     text-align: center;
@@ -214,7 +219,9 @@ font-size: 25px;
     display: flex;
     justify-content: space-between;
     margin-top: 65px;
+
 }
+
 
 
 
