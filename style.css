@@ -229,16 +229,17 @@ header {
     color: #727272;
 }
 
-/* sponsor styles */
+/******************* sponsor styles *********************/
 .sponsor-img {
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
+    margin: 60px;
     filter: grayscale();
 }
 
 .sponsor-details {
     text-align: center;
+    
 }
 
 .fact-icon {
@@ -357,6 +358,7 @@ header {
         flex-direction: column;
         
     }
+    
 
 
 }
